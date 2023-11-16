@@ -1,0 +1,440 @@
+    1  touch test
+    2  ls
+    3  pwd
+    4  cd 'OneDrive - Capitec Bank Ltd'/
+    5  cd desktop
+    6  mkdir new_project
+    7  mkdir new_project2
+    8  cd new_project2
+    9  git init
+   10  git status
+   11  cd ..
+   12  cd new_project2
+   13  touch index.html
+   14  git add html/index.html
+   15  git add.
+   16  git status
+   17  cd index.html
+   18  git commit - m working index
+   19  git commit -m "working index"
+   20  git add
+   21  git add "html/index.html"
+   22  git commit -m index.html "working index"
+   23  git add index.html
+   24  git commit -m "working index"
+   25  git log
+   26  git commit -m "[200~<html>
+   27    <head>
+   28      <meta charset="UTF-8">
+   29      <title>Version Control</title>
+   30    </head>
+   31    <body>
+   32      <h1>Hello Git</h1>
+   33    </body>
+   34  </html>
+   35  ~"
+   36  git log
+   37  git add index.html
+   38  git commit -m "<html>
+   39    <head>
+   40      <meta charset="UTF-8">
+   41      <title>Version Control</title>
+   42    </head>
+   43    <body>
+   44      <h1>Hello Git</h1>
+   45    </body>
+   46  </html>
+   47  "
+   48  git log
+   49  git commit - <html>
+   50    <head>
+   51      <meta charset="UTF-8">
+   52      <title>Version Control</title>
+   53    </head>
+   54    <body>
+   55      <h1>Hello Git</h1>
+   56    </body>
+   57  </html>
+   58  pwd
+   59  git status
+   60  rm -rf index.htm
+   61  ls
+   62  git add html/index.html
+   63  git add index.html
+   64  git commit -m "<html>
+   65    <head>
+   66      <meta charset="UTF-8">
+   67      <title>Version Control</title>
+   68    </head>
+   69    <body>
+   70      <h1>Hello Git</h1>
+   71    </body>
+   72  </html>"
+   73  git status
+   74  git add index.html
+   75  git status
+   76  git commit -m "added meta charset and title tag to index.html"
+   77  git log
+   78  clear
+   79  cd ..
+   80  cd test2
+   81  git add index.html
+   82  git commit -m "update html"
+   83  git log
+   84  cd..
+   85  cd ..
+   86  cd test2
+   87  git add styles.css
+   88  git commit -m "update css"
+   89  git log
+   90  cd ..
+   91  clear
+   92  mkdir test3
+   93  cd test3
+   94  touch index.html styles.css
+   95  git init
+   96  git add .
+   97  git commit -m "initial commit"
+   98  cd ''
+   99  cd ..
+  100  rm -rf test
+  101  rm -rf test2
+  102  rm -rf test3
+  103  clear
+  104  mkdir test
+  105  cd test
+  106  touch index.html
+  107  touch styles.css
+  108  git init
+  109  git add.
+  110  git add .
+  111  git commit -m "initial commit"
+  112  git add index.html
+  113  git commit -m "update html"
+  114  git add styles.css
+  115  git commit -m "update css"
+  116  git log
+  117  git reset --hard HEAD-1
+  118  git add styles.css
+  119  git commit -m "changed css"
+  120  pwd
+  121  touch command.txt
+  122  clear
+  123  cd ..
+  124  clear
+  125  pwd
+  126  ls
+  127  clear
+  128  git init basic_repo
+  129  cd basic_repo
+  130  git remote add orgin https://github.com/nathanm8-weeb/basic_repo.git
+  131  echo "#This is a basic repo" > README.md
+  132  git add .
+  133  git commit -m "Initial commit"
+  134  git push -u origin main
+  135  git branch -M main
+  136  git remote add origin https://github.com/nathanm8-weeb/basic_repo.git
+  137  git push -u origin main
+  138  git config --global https.sslverify "false"
+  139  git push -u origin main
+  140  git push
+  141  git push -u origin main
+  142  git push -origin main
+  143  ls
+  144  git init
+  145  git push -u origin main
+  146  clear
+  147  mysql -u root -p
+  148  pwd
+  149  cd [200~'/c/Users/CP033822/OneDrive - Capitec Bank Ltd/Desktop'~
+  150  cd
+  151  pwd
+  152  cd /OneDrive - Capitec Bank Ltd/Desktop
+  153  cd OneDrive - Capitec Bank Ltd/Desktop
+  154  cd 'OneDrive - Capitec Bank Ltd/Desktop'
+  155  pwd
+  156  mkdir git-basic-exercises
+  157  cd git-basic-exercises
+  158  ls -a
+  159  git init
+  160  ls -a
+  161  git status
+  162  touch README.md
+  163  ls -a
+  164  git status
+  165  git log
+  166  git add README.md
+  167  git status
+  168  git rm
+  169  git reset
+  170  git status
+  171  git add README.md
+  172  git status
+  173  git commit -m "initial commit"
+  174  git log
+  175  q
+  176  nano README.md
+  177  cat README.md
+  178  git status
+  179  git commit -m "second commit"
+  180  git status
+  181  git log
+  182  git add README.md
+  183  git commit -m "second commit"
+  184  git log
+  185  nano README.md
+  186  git add README.md
+  187  git commit -m "third commit"
+  188  git log
+  189  git checkout
+  190  0e99711d8e32dbff0503b6c9880f449a1aede4b6
+  191  git checkout 0e99711d8e32dbff0503b6c9880f449a1aede4b6
+  192  cat README.md
+  193  git checkout main
+  194  cat README.md
+  195  git branch
+  196  pwd
+  197  git checkout -b milkshake-flavours
+  198  git push origin milkshake-flavours
+  199  git branch
+  200  git checkout master
+  201  git branch
+  202  git checkout milkshake-flavours
+  203  nano milkshakes.md
+  204  git status
+  205  git add milkshakes.md
+  206  git commit -m "added initial flavours"
+  207  git log
+  208  git checkout -b history
+  209  git push origin history
+  210  git branch
+  211  git log
+  212  history > history.txt
+  213  git commit -m "added history"
+  214  git log
+  215  git add history.txt
+  216  git commit -m "added history"
+  217  git log
+  218  pwd
+  219  cd 'OneDrive - Capitec Bank Ltd/Desktop'
+  220  cd git-basic-exercises
+  221  git branch
+  222  git checkout history
+  223  cat README.md
+  224  rm README.md
+  225  echo "booya" > README.md
+  226  git add README.md
+  227  git commit -m "rewrote readme"
+  228  checkout master
+  229  git branch
+  230  git checkout master
+  231  ls
+  232  git log
+  233  git checkout milkshake-flavours
+  234  ls
+  235  git log
+  236  git checkout history
+  237  ls
+  238  git log
+  239  pwd
+  240  cd 'OneDrive - Capitec Bank Ltd/Desktop'
+  241  cd git-basic-exercises
+  242  git checkout master
+  243  git merge milkshake-flavours
+  244  ls
+  245  git log
+  246  git merge history
+  247  git checkout history
+  248  git log
+  249  cd 'OneDrive - Capitec Bank Ltd/Desktop'
+  250  cd Technical
+  251  cd Person project
+  252  cd 'Person project'
+  253  git clone https://github.com/Umuzi-org/Nathan-Mbono-223-person-java
+  254  cd Nathan-Mbono-223-person-java
+  255  git branch Person project
+  256  git branch 'Person project'
+  257  git branch person
+  258  git switch person
+  259  touch Person.java
+  260  touch PersonTest.java
+  261  git add .
+  262  git commit -m "intial commit"
+  263  git push --set-upstream origin person
+  264  git clone https://github.com/Umuzi-org/Nathan-Mbono-963-contentitem-.git
+  265  cd ..
+  266  cd 'OneDrive - Capitec Bank Ltd/Desktop'
+  267  mkdir git-basic-exercises
+  268  cd git-basic-exercises
+  269  ls -a
+  270  git init
+  271  ls -a
+  272  git status
+  273  touch README.md
+  274  ls -a
+  275  git status
+  276  git log
+  277  git add README.md
+  278  git status
+  279  git reset README.md
+  280  git status
+  281  git add README.md
+  282  git commit -m "initial commit"
+  283  git log
+  284  q
+  285  nano README.md
+  286  cat README.md
+  287  git status
+  288  git add README.md
+  289  git commit -m "second commit"
+  290  nano README.md
+  291  git add README.md
+  292  git commit -m "third commit"
+  293  git log
+  294  q
+  295  git checkout
+  296  git checkout d92a02f127865ed87888c891183b78991d8968bb
+  297  cat README.md
+  298  git checkout main
+  299  git checkout master
+  300  cat README.md
+  301  git branch
+  302  git branch milkshake-flavours
+  303  git branch
+  304  git checkout milkshake-flavours
+  305  git branch
+  306  nano milkshakes.md
+  307  git status
+  308  git add milkshakes.md
+  309  git commit -m "added initial flavours"
+  310  git log
+  311  git checkout master
+  312  git branch history
+  313  git checkout history
+  314  git log
+  315  git branch
+  316  history > history.txt
+  317  git add history.txt
+  318  git commit -m "added history"
+  319  git log
+  320  git checkout milkshake-flavours
+  321  git log
+  322  nano README.md
+  323  git add README.md
+  324  git commit -m "random readme changes"
+  325  git checkout history
+  326  cat README.md
+  327  nano README.md
+  328  git add README.md
+  329  git commit -m "rewrote readme"
+  330  git checkout master
+  331  git merge milkshake-flavours
+  332  ls
+  333  git log
+  334  git merge history
+  335  ls
+  336  git branch
+  337  git checkout history
+  338  git merge master
+  339  git log
+  340  git checkout master
+  341  git remote add origin https://github.com/nathanm8-weeb/git-basic-exercise.git
+  342  git branch -M main
+  343  git push -u origin main
+  344  git push origin history
+  345  git push origin milkshake-flavours
+  346  cd ../
+  347  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  348  rm -rf git-basic-exercises
+  349  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  350  rm -rf a-repo-to-clone
+  351  mv a-repo-to-clone a-repo-to-clone-old
+  352  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  353  cd a-repo-to-clone
+  354  git branch
+  355  git log
+  356  git branch -a
+  357  git checkout a-branch-with-a-few-commits
+  358  git remote -v
+  359  git log
+  360  cd ../git-basic-exercises
+  361  git log
+  362  cd ../git-basic-exercise
+  363  cd ../
+  364  git rev-list -n 1 HEAD --before="date" file-path
+  365  git rev-list -n 1 HEAD --before="date" git-basic-exercises
+  366  git rev-list -n 1 HEAD --before="18/11/2023" git-basic-exercises
+  367  git rev-list -n 1 HEAD --before=18/11/2023 git-basic-exercises
+  368  git rev-list -n 1 HEAD --before="2023-11-15 15:00:00" C:/Users/CP033822/OneDrive - Capitec Bank Ltd/Desktop/git-basic-exercises/.git
+  369  git rev-list -n 1 HEAD --before="2023-11-15 15:00:00" 'C:/Users/CP033822/OneDrive - Capitec Bank Ltd/Desktop/git-basic-exercises/.git'
+  370  pwd
+  371  git clone https://githun.com/nathanm8-weeb/git-basic-exercise.git
+  372  git checkout main
+  373  git clone https://github.com/nathanm8-weeb/git-basic-exercise.git
+  374  cd ../git-basic-exercise
+  375  cd git-basic-exercise
+  376  git branch
+  377  git branch -a
+  378  git log
+  379  cd ../
+  380  mkdir this-will-be-another-repo
+  381  cd this-will-be-another-repo
+  382  git init
+  383  touch README.md
+  384  cd ../
+  385  cd git-basic-exercise
+  386  touch ignore-me.md
+  387  git status
+  388  nano .gitignore
+  389  touch ignore-me.db
+  390  mkdir large-directory-that-should-be-local-only
+  391  cd large-directory-that-should-be-local-only
+  392  touch README.md
+  393  nano README.md
+  394  cd ...
+  395  cd ../git-basic-exercise
+  396  cd ../
+  397  git status
+  398  nano .gitignore
+  399  git add .gitignore
+  400  git commit -m "added .gitignore"
+  401  git push
+  402  git checkout history
+  403  git log
+  404  git checkout master
+  405  git checkout main
+  406  git merge history
+  407   git config --global --add safe.directory 'C:/Users/CP033822/OneDrive - Capitec Bank Ltd/Desktop/git-basic-exercise'
+  408  git status
+  409  git merge history
+  410  nano README.md
+  411  mkdir git-basic-exercises
+  412  cd git-basic-exercises
+  413  gitinit
+  414  git init
+  415  touch README.md
+  416  git add .
+  417  git commit -m "initial commit"
+  418  nano README.md
+  419  git add .
+  420  git commit -m "second commit"
+  421  nano README.md
+  422  git add .
+  423  git commit -m "third commit"
+  424  git branch milkshake-flavours
+  425  git checkout milkshake-flavours
+  426  nano milkshake.md
+  427  git add .
+  428  git commit -m "added initial flavours"
+  429  nano README.md
+  430  git add .
+  431  git commit -m "random readme changes"
+  432  git log
+  433  git checkout main
+  434  git checkout master
+  435  touch history.txt
+  436  rm history.txt
+  437  ls
+  438  git branch history
+  439  git checkout history
+  440  history > history.txt
